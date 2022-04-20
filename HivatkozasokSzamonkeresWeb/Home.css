@@ -1,0 +1,75 @@
+﻿/* Page-specific styling */
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0px;
+}
+
+body {
+    margin: 0 0 40px; /* bottom = footer height */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+header {
+    padding: 15px;
+    background-color: #032788;
+    color: #fff;
+}
+
+.padding {
+    padding: 15px 0;
+}
+
+div.menu {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li.button a {
+    display: inline;
+    float: left;
+    margin: 0px;
+    background-color: rgb(53, 109, 230);
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+li.buttonP a {
+    display: inline;
+    float: left;
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+}
+
+li.buttonP a:hover {
+    display: inline;
+    float: left;
+    padding: 8px;
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+    color: #000;
+    text-decoration: none;
+    margin: 0px;
+}
